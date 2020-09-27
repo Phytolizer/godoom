@@ -6,6 +6,7 @@ import (
 	"godoom/doomstat"
 	"godoom/english"
 	"godoom/game"
+	"godoom/hud"
 	"godoom/input"
 	"godoom/joystick"
 	"godoom/menu"
@@ -13,6 +14,7 @@ import (
 	"godoom/net"
 	"godoom/sound"
 	"godoom/video"
+	"strconv"
 )
 
 func bindVariables() {
@@ -45,4 +47,11 @@ func bindVariables() {
 	configuration.BindBoolVariable("vanilla_demo_limit", &game.VanillaDemoLimit)
 	configuration.BindBoolVariable("show_endoom", &showEndoom)
 	configuration.BindBoolVariable("show_diskicon", &showDiskIcon)
+
+	for i := 0; i < 10; i += 1 {
+		hud.ChatMacros[i] = hud.ChatMacroDefaults[i]
+		buf := "chatmacro"
+		strconv.AppendInt([]byte(buf), 1, 10)
+		configuration.BindStringVariable(buf, &hud.ChatMacros[i])
+	}
 }

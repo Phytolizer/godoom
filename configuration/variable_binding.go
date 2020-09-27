@@ -7,3 +7,7 @@ func BindIntVariable(key string, value *int) {
 func BindBoolVariable(key string, value *bool) {
 	// TODO
 }
+
+func BindStringVariable(key string, value *string) {
+	// TODO
+}
