@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9853887-55c4-4bf1-a51e-7c89c1259588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sound/variable_binding.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controls/vars.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doom/variable_binding.go" beforeDir="false" afterPath="$PROJECT_DIR$/doom/variable_binding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/mod.go" beforeDir="false" afterPath="$PROJECT_DIR$/english/mod.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add joystick/sound var binding to main fn" />
+    <MESSAGE value="Add key control binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add key control binding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1076" y="382" key="#GOPATH" timestamp="1601212359172">
@@ -100,10 +103,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="739" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601227119879" />
-    <state x="854" y="186" key="CommitChangelistDialog2" timestamp="1601229654071">
+    <state x="854" y="186" key="CommitChangelistDialog2" timestamp="1601229921468">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="854" y="186" key="CommitChangelistDialog2/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601229654071" />
+    <state x="854" y="186" key="CommitChangelistDialog2/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601229921468" />
     <state x="1064" y="478" key="FileChooserDialogImpl" timestamp="1601229618049">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
