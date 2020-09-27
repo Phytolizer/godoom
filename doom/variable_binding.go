@@ -6,6 +6,7 @@ import (
 	"godoom/input"
 	"godoom/joystick"
 	"godoom/misc"
+	"godoom/net"
 	"godoom/sound"
 	"godoom/video"
 )
@@ -26,4 +27,6 @@ func bindVariables() {
 	controls.KeyMultiMsgPlayer[1] = english.HuStrKeyIndigo
 	controls.KeyMultiMsgPlayer[2] = english.HuStrKeyBrown
 	controls.KeyMultiMsgPlayer[3] = english.HuStrKeyRed
+
+	net.BindVariables()
 }
