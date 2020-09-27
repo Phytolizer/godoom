@@ -7,11 +7,8 @@ import (
 	"godoom/wad"
 )
 
-var showEndoom = 1
-var mainLoopStarted = false
-
 func endoom() {
-	if showEndoom == 0 || !mainLoopStarted || video.ScreensaverMode || argv.ParmExists("-testcontrols") {
+	if !showEndoom || !mainLoopStarted || video.ScreensaverMode || argv.ParmExists("-testcontrols") {
 		return
 	}
 

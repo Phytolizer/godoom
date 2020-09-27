@@ -1,7 +1,13 @@
 package doomstat
 
-var NoMonsters bool
-var RespawnParm bool
-var FastParm bool
-var DevParm bool
-var Deathmatch int
+var (
+	NoMonsters  bool
+	RespawnParm bool
+	FastParm    bool
+	DevParm     bool
+	Deathmatch  int
+
+	MouseSensitivity int
+	SfxVolume        int
+	MusicVolume      int
+)
