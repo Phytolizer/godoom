@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9853887-55c4-4bf1-a51e-7c89c1259588" name="Default Changelist" comment="" />
+    <list default="true" id="e9853887-55c4-4bf1-a51e-7c89c1259588" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sound/variable_binding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doom/variable_binding.go" beforeDir="false" afterPath="$PROJECT_DIR$/doom/variable_binding.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/lib/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
@@ -24,6 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1i5zdG18z2284QMHiHzdXWxXkNo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,6 +87,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1076" y="382" key="#GOPATH" timestamp="1601212359172">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -87,10 +100,14 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="739" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601227119879" />
-    <state x="1064" y="478" key="FileChooserDialogImpl" timestamp="1601213066914">
+    <state x="854" y="186" key="CommitChangelistDialog2" timestamp="1601229654071">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1064" y="478" key="FileChooserDialogImpl/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601213066914" />
+    <state x="854" y="186" key="CommitChangelistDialog2/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601229654071" />
+    <state x="1064" y="478" key="FileChooserDialogImpl" timestamp="1601229618049">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1064" y="478" key="FileChooserDialogImpl/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601229618049" />
     <state width="2518" height="252" key="GridCell.Tab.0.bottom" timestamp="1601228664791">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
