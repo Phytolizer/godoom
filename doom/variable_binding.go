@@ -51,7 +51,7 @@ func bindVariables() {
 	for i := 0; i < 10; i += 1 {
 		hud.ChatMacros[i] = hud.ChatMacroDefaults[i]
 		buf := "chatmacro"
-		strconv.AppendInt([]byte(buf), 1, 10)
+		buf += strconv.FormatInt(int64(i), 10)
 		configuration.BindStringVariable(buf, &hud.ChatMacros[i])
 	}
 }

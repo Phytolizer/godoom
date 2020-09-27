@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9853887-55c4-4bf1-a51e-7c89c1259588" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/misc/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/misc/files.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/defaults.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/vars.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/variable_binding.go" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/variable_binding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doom/variable_binding.go" beforeDir="false" afterPath="$PROJECT_DIR$/doom/variable_binding.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,41 +99,42 @@
     <MESSAGE value="Add networking var binding" />
     <MESSAGE value="Add misc. var bindings in main" />
     <MESSAGE value="Add chat macro bindings and support for string variable binding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add chat macro bindings and support for string variable binding" />
+    <MESSAGE value="Fix error handling in misc.MakeDirectory to ignore when dir already exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix error handling in misc.MakeDirectory to ignore when dir already exists" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1076" y="382" key="#GOPATH" timestamp="1601212359172">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1076" y="382" key="#GOPATH/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601212359172" />
-    <state x="739" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601227119879">
+    <state x="739" y="357" width="1081" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601234119272">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="739" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601227119879" />
-    <state x="854" y="186" key="CommitChangelistDialog2" timestamp="1601231429472">
+    <state x="739" y="357" width="1081" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601234119272" />
+    <state x="854" y="186" key="CommitChangelistDialog2" timestamp="1601231824291">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="854" y="186" key="CommitChangelistDialog2/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231429472" />
+    <state x="854" y="186" key="CommitChangelistDialog2/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231824291" />
     <state x="1064" y="478" key="FileChooserDialogImpl" timestamp="1601229618049">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1064" y="478" key="FileChooserDialogImpl/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601229618049" />
-    <state width="2518" height="252" key="GridCell.Tab.0.bottom" timestamp="1601231716487">
+    <state width="2518" height="252" key="GridCell.Tab.0.bottom" timestamp="1601239426070">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="252" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231716487" />
-    <state width="2518" height="252" key="GridCell.Tab.0.center" timestamp="1601231716487">
+    <state width="2518" height="252" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601239426070" />
+    <state width="2518" height="252" key="GridCell.Tab.0.center" timestamp="1601239426070">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="252" key="GridCell.Tab.0.center/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231716487" />
-    <state width="2518" height="252" key="GridCell.Tab.0.left" timestamp="1601231716487">
+    <state width="2518" height="252" key="GridCell.Tab.0.center/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601239426070" />
+    <state width="2518" height="252" key="GridCell.Tab.0.left" timestamp="1601239426070">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="252" key="GridCell.Tab.0.left/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231716487" />
-    <state width="2518" height="252" key="GridCell.Tab.0.right" timestamp="1601231716487">
+    <state width="2518" height="252" key="GridCell.Tab.0.left/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601239426070" />
+    <state width="2518" height="252" key="GridCell.Tab.0.right" timestamp="1601239426070">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="252" key="GridCell.Tab.0.right/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601231716487" />
+    <state width="2518" height="252" key="GridCell.Tab.0.right/0.0.2560.1440/2560.584.1920.1080@0.0.2560.1440" timestamp="1601239426070" />
     <state x="770" y="356" key="SettingsEditor" timestamp="1601231412046">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
