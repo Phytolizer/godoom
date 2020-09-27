@@ -4,12 +4,15 @@ import (
 	"godoom/errors"
 	"io"
 	"os"
+	"syscall"
 )
 
 func MakeDirectory(dir string) {
 	err := os.Mkdir(dir, os.FileMode(0755))
 	if err != nil {
-		errors.Error("Could not make directory ", dir, ": ", err)
+		if err.(*os.PathError).Err != syscall.EEXIST {
+			errors.Error("Could not make directory ", dir, ": ", err)
+		}
 	}
 }
 
