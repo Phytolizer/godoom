@@ -4,7 +4,8 @@ package system
 
 import (
 	"os"
-	"src/github.com/mattn/go-isatty"
+
+	"github.com/mattn/go-isatty"
 )
 
 func ConsoleStdout() bool {

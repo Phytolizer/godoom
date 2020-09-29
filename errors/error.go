@@ -6,7 +6,8 @@ import (
 	"godoom/meta"
 	"godoom/system"
 	"os"
-	sdl2 "src/github.com/veandco/go-sdl2/sdl"
+
+	sdl2 "github.com/veandco/go-sdl2/sdl"
 )
 
 var alreadyQuitting = false

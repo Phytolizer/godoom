@@ -3,7 +3,8 @@ package config_file
 import (
 	"godoom/meta"
 	"godoom/misc"
-	sdl2 "src/github.com/veandco/go-sdl2/sdl"
+
+	sdl2 "github.com/veandco/go-sdl2/sdl"
 )
 
 var configDir = ""
